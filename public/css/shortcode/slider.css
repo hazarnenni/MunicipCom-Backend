@@ -1,0 +1,236 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Republic  Government HTML Template.
+  Template URI: #
+  Description: Republic is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-----------------------------------------------------------------------------------*/
+/*
+  font-family: 'Nunito Sans', sans-serif;
+*/
+
+.slider-bg-1,
+.slider-bg-2 ,
+.slider-bg-3 {
+  background-attachment: fixed;
+  background-clip: initial;
+  background-color: rgba(0, 0, 0, 0);
+  background-origin: initial;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.slider-bg-1 {
+  background: rgba(0, 0, 0, 0) url("../../images/bg/a.jpg") no-repeat scroll 0 0 / cover ;
+}
+.slider-bg-2 {
+  background: rgba(0, 0, 0, 0) url("../../images/bg/2.jpg") no-repeat scroll 0 0 / cover ;
+}
+.slider-bg-3 {
+  background: rgba(0, 0, 0, 0) url("../../images/bg/3.jpg") no-repeat scroll 0 0 / cover ;
+}
+
+/**! 8. Background variation **/
+.full-screen .single-slide{
+	height: 100vh;
+	display: block;
+}
+.slider-content {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+#header-content {
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 9999;
+}
+.slider-feature-img {
+  position: absolute;
+  right: -80px;
+}
+/*------------------------------------------
+      Slider
+---------------------------------------*/
+
+.slider__inner h1 {
+    line-height: 39px;
+}
+.slider__inner p {
+    font-size: 25px;
+    line-height: 27px;
+    margin-top: 30px;
+    padding: 0 19%;
+}
+.slider__btn {
+}
+
+.slider__btn {
+    margin-top: 35px;
+}
+.htc__slider {
+    height: 80vh;
+}
+.text-left .slider__inner p {
+    padding: 0 40% 0 0;
+}
+.text-center .slider__inner p {
+    padding: 0 19%;
+}
+
+.text-right .slider__inner p {
+    padding: 0 0 0 40%;
+}
+.slider__container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/*---------------------------------
+    Button Style
+-----------------------------------*/
+.htc-btn {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+}
+.htc-btn:hover::after{
+  background: #fff;
+}
+.htc-btn:hover{
+  background: #f1f1f1;
+}
+.htc-btn::after {
+  background: #f1f1f1;
+  color: #b7985b;
+  content: "";
+  font-family: "Material-Design-Iconic-Font";
+  font-size: 30px;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+  z-index: 9;
+  transition: 0.3s;
+}
+.htc-btn {
+  background-color: #fff;
+  border-radius: 22px;
+  color: #444;
+}
+.htc-btn {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 18px;
+  padding-right: 75px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 178px;
+  transition: 0.3s;
+}
+
+.link-video {
+  background-color: #fff;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 0.3s ease 0s;
+    border-radius: 22px;
+    text-transform: uppercase;
+}
+.link-video:hover {
+  background-color: #f1f1f1;
+}
+.link-video:hover a.video-icon{
+  background-color: #fff;
+}
+.link-video a {
+  color: #444;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 31px;
+  padding: 9px 18px;
+  transition: all 0.3s ease 0s;
+}
+.link-video a:hover {
+  color: #b7985b;
+}
+.link-video a.video-icon {
+  background: #f1f1f1;
+  color: #b7985b;
+  font-size: 30px;
+  padding: 7px 18px 8px;
+  transition: all 0.3s ease 0s;
+}
+.link-video a.video-icon i{
+    line-height: 34px;
+}
+
+.rp-btn.btn--transparent {
+    background: transparent;
+    border: 1px solid #fff;
+}
+.rp-btn.btn--transparent:hover {
+  background: #b7985b;
+  border: 1px solid #b7985b;
+  color: #fff !important;
+}
+
+
+/*---------------------------------------------------
+  htc__slider__animation
+------------------------------------------------------*/
+
+
+.htc__slider__animation--center .slider__inner h1,
+.htc__slider__animation--center .slider__inner p,
+.htc__slider__animation--center .slider__inner .slider__btn{
+  animation: 1500ms ease-in-out 0s normal both 1 running fadeInUp;
+}
+
+
+.htc__slider__animation--left .slider__inner h1,
+.htc__slider__animation--left .slider__inner p,
+.htc__slider__animation--left .slider__inner .slider__btn{
+  animation: 1500ms ease-in-out 0s normal both 1 running fadeInRight;
+}
+
+.htc__slider__animation--right .slider__inner h1,
+.htc__slider__animation--right .slider__inner p,
+.htc__slider__animation--right .slider__inner .slider__btn{
+  animation: 1500ms ease-in-out 0s normal both 1 running fadeInLeft;
+}
+
+
+.htc__slider__animation--center .slider__inner h1,
+.htc__slider__animation--right .slider__inner h1,
+.htc__slider__animation--left .slider__inner h1 {
+    animation-delay: 1000ms;
+}
+.htc__slider__animation--center .slider__inner p,
+.htc__slider__animation--right .slider__inner p,
+.htc__slider__animation--left .slider__inner p {
+    animation-delay: 2000ms;
+}
+.htc__slider__animation--center .slider__inner .slider__btn,
+.htc__slider__animation--right .slider__inner .slider__btn,
+.htc__slider__animation--left .slider__inner .slider__btn{
+    animation-delay: 3000ms;
+}

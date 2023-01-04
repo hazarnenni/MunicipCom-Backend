@@ -1,0 +1,199 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Republic  Government HTML Template.
+  Template URI: #
+  Description: Republic is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-------------------------------------------------------------------------------------*/
+/*
+font-family: 'Nunito Sans', sans-serif;
+
+*/
+/*-----------------------------
+	Footer Default
+------------------------------*/
+
+
+.news__letter {
+    align-items: center;
+    border-bottom: 1px solid #444444;
+    display: flex;
+    height: 170px;
+    justify-content: center;
+}
+.news__letter__title {
+    margin-right: 60px;
+}
+.news__letter__btn {
+    position: relative;
+}
+.send__btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.send__btn a i {
+    background: #b7985b;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 70px;
+}
+.send__btn a {
+    display: block;
+}
+.send__btn a:hover i {
+    color: #fff;
+}
+.news__letter__title h2 {
+    color: #fff;
+}
+.news__letter__title p {
+    color: #fff;
+    font-size: 14px;
+}
+.footer__widget__wrap {
+    padding: 60px 0;
+}
+.footer__widget p {
+    color: #cccccc;
+}
+.ftr--logo {
+    margin-bottom: 23px;
+}
+.social__icon {
+    display: flex;
+}
+.social__icon li a i {
+  color: #adadad;
+  font-size: 18px;
+  transition: all 0.3s ease 0s;
+}
+.social__icon li + li {
+    margin-left: 30px;
+}
+
+
+.news__letter__btn input[type="text"],
+.news__letter__btn input[type="email"],
+.news__letter__btn input[type="password"] {
+  background: #393939;
+  border: 1px solid #393939;
+  padding-left: 30px;
+  padding-right: 82px;
+  width: 500px;
+    position: relative;
+    height: 50px;
+}
+
+
+.news__letter__btn input[type="email"]{
+  color: #fff;
+}
+.send__btn {
+  background: #b7985b;
+  border: none;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 70px;
+  font-size: 28px;
+}
+.send__btn:hover {
+  background: #ac7e24;
+}
+
+.mc-form .mc-news {
+  left: -5000px;
+  position: absolute;
+}
+.mc-form .clear {
+  bottom: 0;
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+}
+
+.ft-dtl {
+    margin-bottom: 33px;
+}
+.footer__title {
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.footer--display {
+    display: flex;
+}
+.footer__menu li a {
+    color: #cccccc;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 0;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.footer--display ul + ul {
+    margin-left: 69px;
+}
+.footer__inner {
+    margin-top: 20px;
+}
+.footer__menu li a:hover {
+    color: #b7985b;
+}
+.ft__address p span {
+    color: #f1f1f1;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 24px;
+}
+.ft__address p a {
+    color: #cccccc;
+    display: block;
+    font-size: 16px;
+}
+.ft__address p a + a {
+    padding-left: 82px;
+}
+.footer__inner .ft__address + .ft__address {
+    margin-top: 15px;
+}
+.cpoyright__content {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+}
+.copyright__inner p {
+    color: #adadad;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.copyright__inner p a {
+    color: #b7985b;
+}
+
+.ft__address p a:hover {
+  color: #b7985b;
+}
+.social__icon li a:hover i {
+  color: #b7985b;
+}
+
+
+
+
+
+
+
+
+
+

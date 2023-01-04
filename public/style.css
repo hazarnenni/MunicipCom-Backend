@@ -1,0 +1,1196 @@
+/*-----------------------------------------------------------------------------------
+  Template Name: Republic Government HTML Template.
+  Template URI: #
+  Description: Republic is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+-----------------------------------------------------------------------------------
+
+  CSS INDEX
+  ===================
+
+    1. Template default css (css/shortcode/default.css)
+    2. Header css (css/shortcode/header.css)
+    3. Slider css (css/shortcode/slider.css)
+    4. Footer css (css/shortcode/footer.css)
+    5. Scroll to top
+    6. Service area
+    7. About area
+    8. Running project area
+    9. Our story area
+    10. Our counterUp area
+    11. Our recent event area
+    12. Our blog area
+    13. Our blog sidebar area
+    14. Blog details
+    15. Contact us
+    16. Banner area
+    17. Bradcamb area
+    18. Login area
+
+
+-----------------------------------------------------------------------------------*/
+
+/*---------------------------------------
+  5. Scroll to top
+----------------------------------------*/
+
+#scrollUp {
+    border-radius: 2px;
+    bottom: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    color: #fff;
+    font-size: 28px;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 45px;
+    z-index: 200;
+    bottom: 15px;
+}
+@-webkit-keyframes scroll-ani-to-top {
+    0% {
+        opacity: 0;
+        bottom: 0;
+    }
+    50% {
+        opacity: 1;
+        bottom: 50%;
+    }
+    100% {
+        opacity: 0;
+        bottom: 75%;
+    }
+}
+@-moz-keyframes scroll-ani-to-top {
+    0% {
+        opacity: 0;
+        bottom: 0;
+    }
+    50% {
+        opacity: 1;
+        bottom: 50%;
+    }
+    100% {
+        opacity: 0;
+        bottom: 75%;
+    }
+}
+@keyframes scroll-ani-to-top {
+    0% {
+        opacity: 0;
+        bottom: 0;
+    }
+    50% {
+        opacity: 1;
+        bottom: 50%;
+    }
+    100% {
+        opacity: 0;
+        bottom: 75%;
+    }
+}
+#scrollUp:hover i {
+    animation: 800ms linear 0s normal none infinite running scroll-ani-to-top;
+    height: 100%;
+    left: 0;
+    margin-bottom: -25px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+#scrollUp i {
+    color: #fff;
+}
+#scrollUp {
+    background: #b7985b;
+}
+/*---------------------------------------
+    End Scroll To Top
+----------------------------------------*/
+/*---------------------------------------
+  6. Service area
+----------------------------------------*/
+
+.section__title p.title-desc {
+    margin-top: 18px;
+    padding: 0 23%;
+}
+.sectionservice__title p.title-desc {
+    margin-top: 14px;
+    padding: 0 23%;
+}
+.sectionservice__title h2{
+    background-color: #1290ae;
+    color: white;
+}
+
+.service__icon i {
+    border: 1px solid #c8c8c8;
+    border-radius: 100%;
+    color: #888888;
+    font-size: 30px;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 70px;
+    z-index: 3;
+}
+.service__icon i::after {
+    background: #b7985b;
+    border: 1px solid #b7985b;
+    border-radius: 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: -1;
+}
+.service:hover .service__icon::before {
+    opacity: 1;
+}
+.service:hover .service__icon i::after {
+    opacity: 1;
+    transform: scaleX(1);
+}
+.service:hover .service__icon i {
+    color: #fff;
+    border: 1px solid transparent;
+}
+.service__details h4 {
+    text-transform: capitalize;
+}
+.service__details p {
+    margin-top: 14px;
+}
+.service__details {
+    margin-top: 17px;
+}
+.service {
+    margin-bottom: 50px;
+}
+
+/*---------------------------------------
+  7. learnmore area
+----------------------------------------*/
+.learnmore{
+    background-color: #e2f8fe;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 200px;
+}
+.learnmore_inner h1{
+    font-size: 30px;
+    direction: rtl;
+    margin-top: 15px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.more_body{
+    font-size: 20px;
+    font-weight: bold;
+}
+.more_body h2{
+direction: rtl;
+font-size: medium;
+font-weight: bold;
+text-decoration: #000;
+font-size: 18px;
+}
+.more_body h3{
+direction: rtl;
+text-decoration: line-through;
+font-weight: normal;
+text-decoration: #000;
+font-size: 20px;
+}
+/*---------------------------------------
+  7. About area
+----------------------------------------*/
+
+.about {
+    padding-bottom: 100px;
+    padding-top: 140px;
+}
+.about__inner h2 {
+    margin-bottom: 27px;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.about__inner p:first-child {
+    margin-top: 10px;
+    direction: rtl;
+
+}
+.about__inner p + p {
+    margin-top: 10px;
+    direction: rtl;
+}
+.rp-btn {
+    background: #b7985b;
+    border: 1px solid #b7985b;
+    border-radius: 22px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 30px;
+    transition: all 0.3s ease 0s;
+}
+.rp-btn:hover {
+    border: 1px solid #606063;
+    background: transparent;
+    color: #606063 !important;
+}
+.about__btn a {
+    color: #b7985b;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.about__btn a:hover {
+    color: #606063
+}
+.about__btn {
+    margin-top: 35px;
+}
+.about__btn a.play-video {
+    margin-left: 20px;
+}
+.about__btn a.play-video i {
+    font-size: 18px;
+    margin-right: 11px;
+}
+.about__thumb {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.about__thumb::before {
+    border: 7px solid #fff;
+    content: "";
+    height: 66%;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.about__thumb img {
+    position: relative;
+}
+/*---------------------------------------
+  8. Running project area
+----------------------------------------*/
+/*-- Htc Hover Information ----*/
+
+.project,
+.portfolio,
+.blog {
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.project__inner,
+.portfolio__inner,
+.blog__inner {
+    position: relative;
+}
+.htc__hover__fornt img {
+    width: 100%;
+}
+.htc__hover__information::before {
+    background: #000;
+    content: "";
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: -1;
+}
+.htc__hover__information {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.htc__hover__action {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.htc__hover__action a {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: block;
+    height: 42px;
+    line-height: 47px;
+    opacity: 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 42px;
+}
+.htc__hover__action a i {
+    color: #fff;
+    font-size: 24px;
+}
+.project:hover,
+.portfolio:hover,
+.blog:hover {
+    box-shadow: 0 8px 12px rgba(51, 51, 51, 0.30);
+}
+.project:hover .htc__hover__information::before,
+.portfolio:hover .htc__hover__information::before,
+.blog:hover .htc__hover__information::before {
+    opacity: 0.7;
+    visibility: visible;
+}
+.project:hover .htc__hover__action a,
+.portfolio:hover .htc__hover__action a,
+.blog:hover .htc__hover__action a {
+    opacity: 1;
+    visibility: visible;
+}
+.htc__hover__action a:hover {
+    background: #b7985b;
+    border: 1px solid #b7985b;
+    color: #fff !important;
+}
+/*------------------------------
+  End Htc Hover Information
+------------------------------------*/
+
+.project__details h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.time__like__list {
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    padding-bottom: 13px;
+}
+.time__like__list li {
+    color: #999999;
+    font-size: 14px;
+}
+.time__like__list li + li {
+    margin-left: 25px;
+}
+.time__like__list li i {
+    margin-right: 9px;
+}
+.project__post {
+    display: flex;
+    margin-top: 14px;
+}
+.project__details {
+    background: #fafafa;
+    padding: 25px 17px 14px 20px;
+}
+.project__post__title {
+    margin-left: 15px;
+}
+.project__post__title h4 {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+/*---------------------------------------
+  9. Our story area
+----------------------------------------*/
+
+.our-vedio-img {
+    position: relative;
+}
+.video-hover {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    position: absolute !important;
+    text-align: center;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 5;
+}
+.video-hover a {
+    align-items: center;
+    border-radius: 100%;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    transition: 0.3s;
+    width: 50px;
+}
+.video-hover a:hover i {
+    color: #646b6f;
+}
+.video-hover a i {
+    color: #fff;
+    font-size: 60px;
+    transition: 0.3s;
+}
+.story {
+    padding-bottom: 120px;
+    padding-right: 50px;
+    padding-top: 130px;
+}
+.story h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.story h2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    text-transform: capitalize;
+}
+.story__btn {
+    margin-top: 28px;
+}
+.project__post__title h4 {
+    margin-bottom: 0;
+}
+/*---------------------------------------
+  10. Our counterUp area
+----------------------------------------*/
+
+.counterup__container {
+    padding: 55px 40px;
+}
+.counterup__inner h2 {
+    color: #fff;
+}
+.counterup__inner p {
+    color: #fff;
+    margin-top: 10px;
+    padding-right: 30%;
+}
+.funfact-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.fact-count span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.fact-title h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 4px;
+}
+.fact-count span::after {
+    content: "+";
+    position: absolute;
+    right: -28px;
+    top: 7px;
+}
+.portfolio {
+    margin-top: 30px;
+}
+/*---------------------------------------
+  11. Our recent event area
+----------------------------------------*/
+
+.recent__event {
+    border: 1px solid #eeeeee;
+    display: flex;
+}
+.event__time {
+    border-right: 1px solid #eeeeee;
+    padding: 40px 38px 0;
+    text-align: center;
+}
+ .event__time span {
+    color: #888888;
+    font-size: 18px;
+}
+.event__time span.event--year {
+    color: #343434;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.event__information {
+    padding: 24px 10px 24px 23px;
+}
+.event__information h4 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.event__information p {
+    margin-bottom: 7px;
+}
+.event__post__btn {
+    display: flex;
+}
+.event__post__btn p i {
+    color: #b7985b;
+    font-size: 16px;
+    margin-right: 7px;
+}
+.event__post__btn a {
+    color: #b7985b;
+    font-size: 14px;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+.recent__event {
+    margin-top: 20px;
+}
+.recent__enent__wrap {
+    margin-top: -20px;
+}
+.recent__event:hover {
+    box-shadow: 0 8px 12px rgba(51, 51, 51, 0.3);
+}
+.recent__event {
+    transition: 0.4s;
+}
+/*---------------------------------------
+  12. Our blog area
+----------------------------------------*/
+
+.blog__details h2 {
+    border-bottom: 1px solid #dfe5e8;
+    font-size: 18px;
+    padding-bottom: 17px;
+}
+.blog__details {
+    padding: 20px;
+}
+.blog {
+    padding: 10px;
+}
+.blog__details p {
+    align-items: center;
+    color: #999999;
+    display: flex;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 18px;
+}
+.blog__details p i {
+    color: #999999;
+    font-size: 20px;
+    margin-right: 10px;
+}
+/*---------------------------------------
+  13. Our blog sidebar area
+----------------------------------------*/
+
+h3.leave-comment-text {
+    border-bottom: 1px solid #5b5b5b;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    color: #444;
+}
+.blog-search > form {
+    position: relative;
+}
+.blog-search input[type="text"] {
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    color: #666666;
+    height: 40px;
+    line-height: 28.8px;
+    margin: 0;
+    outline: medium none;
+    padding: 5px 47px 5px 15px;
+    position: relative;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}
+.blog-search button.submit {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+    color: #fff;
+    font-size: 17px;
+    height: 40px;
+    line-height: 41px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45px;
+    transition: all 0.3s ease 0s;
+    margin-top: 0;
+}
+.blog-search button.submit:hover {
+    background-color: #444;
+    border: 1px solid #444;
+    color: #fff;
+}
+.blog-search input::-moz-placeholder {
+    color: #666666;
+}
+.blog-search input::-webkit-input-placeholder {
+    color: #3f3f3f;
+    opacity: 1;
+}
+.blog-right-sidebar-top li {
+    margin-bottom: 12px;
+}
+.blog-right-sidebar-top a {
+    color: #666666;
+    font-size: 14px;
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+.blog-right-sidebar-top a:hover {
+    color: #b7985b;
+}
+.blog-right-sidebar-bottom li {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 14px;
+}
+.blog-right-sidebar-bottom a {
+    border: 1px solid #b7985b;
+    color: #666;
+    display: inline-block;
+    padding: 9px 24px;
+    transition: all 0.4s ease 0s;
+}
+.blog-right-sidebar-bottom a:hover {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+    color: #fff;
+}
+/*---------------------
+  14. Blog details
+-------------------------*/
+
+.blog-img > img {
+    width: 100%;
+}
+.blog-info {
+    margin-top: 17px;
+}
+.blog-meta span {
+    color: #666666;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.blog-meta span a {
+    color: #666666;
+}
+.blog-meta span a:hover {
+    color: #b7985b;
+}
+.blog-meta > span {
+    padding-right: 20px;
+}
+.blog-meta i {
+    color: #464646;
+    font-size: 16px;
+    padding-right: 10px;
+}
+.blog-info h3 {
+    color: #444;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+}
+blockquote {
+    background-color: #f6f6f6;
+    border-left: 2px solid #b7985b;
+    color: #666666;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 23px 0;
+    padding: 14px 50px;
+}
+.blog-comment {
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 30px;
+}
+.blog-reply-all,
+.blog-reply-all2 {
+    background-color: #f0f0f0;
+    display: block;
+    padding: 40px 30px;
+}
+.blog-top > img {
+    display: inline-block;
+    float: left;
+}
+.blog-img-details {
+    padding-left: 123px;
+}
+.blog-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.blog-title {
+    display: block;
+    overflow: hidden;
+}
+.blog-title > h3 {
+    color: #333;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+.blog-reply-all .blog-title > a,
+.blog-reply-all2 .blog-title > a {
+    background-color: #b7985b;
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 3px 20px 4px;
+    transition: all 0.3s ease 0s;
+}
+.blog-reply-all .blog-title > a:hover,
+.blog-reply-all2 .blog-title > a:hover {
+    background-color: #333;
+    color: #fff !important;
+}
+.blog-img-details > span {
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0 0 12px;
+}
+.blog-img-details > p.p-border {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 25px;
+}
+.blog-img-details > p {
+    font-size: 13px;
+    font-weight: normal;
+}
+.blog-top-mrg {
+    margin-left: 123px;
+    margin-top: 30px;
+}
+.blog-reply-all2 {
+    margin-top: 30px;
+}
+.leave-form input {
+    background: transparent;
+    border: 1px solid #c1c1c1;
+    color: #666666;
+    font-size: 14px;
+    height: 35px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+.text-leave textarea {
+    background: transparent;
+    border: 1px solid #c1c1c1;
+    color: #666666;
+    font-size: 14px;
+    height: 165px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.text-leave button.submit {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 30px 8px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.text-leave button.submit:hover {
+    background-color: #444;
+    border: 1px solid #444;
+    color: #fff;
+}
+.leave-form input::-moz-placeholder,
+.text-leave textarea::-moz-placeholder {
+    color: #666666;
+}
+.leave-form input::-webkit-input-placeholder,
+.leave-form textarea::-webkit-input-placeholder {
+    color: #666666;
+    opacity: 1;
+}
+.blog-info > p {
+    font-size: 15px;
+}
+.leave-form input:focus,
+.text-leave textarea:focus {
+    border-color: #b7985b;
+    box-shadow: none;
+}
+/*---------------------
+  15. Contact us
+-------------------------*/
+
+.contact-from {
+    padding: 50px;
+    background: #f6f6f6;
+}
+.contact-from input {
+    background-color: #fff;
+    border: none;
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 18px;
+    padding: 16px 20px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.contact-from input:focus {
+    outline: medium none;
+}
+
+.contact-from textarea {
+    background-color: #fff;
+    border: none;
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: normal;
+    height: 100px;
+    padding: 16px 20px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+button.submit {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 20px;
+    transition: all 0.3s ease 0s;
+    padding: 16px 20px;
+    font-size: 14px;
+    width: 100%;
+}
+button.submit:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.contact-from input::-moz-placeholder,
+.contact-from textarea::-moz-placeholder {
+    color: #666666;
+}
+.contact-from input::-webkit-input-placeholder,
+.contact-from textarea::-webkit-input-placeholder {
+    color: #666666;
+    opacity: 1;
+}
+.contact-from p.form-messege {
+    margin: 0;
+}
+#hastech {
+    height: 400px;
+    width: 100%;
+}
+.single-communication {
+    display: block;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.communication-icon {
+    display: inline-block;
+    float: left;
+}
+.communication-icon i {
+    border: 1px solid #b7985b;
+    border-radius: 50%;
+    color: #b7985b;
+    font-size: 24px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    width: 64px;
+}
+.communication-text {
+    padding-left: 87px;
+    padding-top: 9px;
+}
+.communication-text > h3 {
+    color: #b7985b;
+    font-size: 15px;
+    font-weight: normal;
+}
+.communication-text > p,
+.communication-text > p a {
+    color: #333;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+.communication-text > p a:hover {
+    color: #b7985b;
+}
+.single-communication:last-child {
+    margin-bottom: 0;
+}
+/*---------------------
+  16. Banner area
+-------------------------*/
+
+.app-text > h2 {
+    font-size: 30px;
+    margin: 3px 0 22px;
+}
+.app-text > h2,
+.app-text > h3,
+.app-text > p {
+    color: #fff;
+}
+.download-links {
+    line-height: 0;
+}
+.download-links a {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 42px;
+    transition: all 0.3s ease 0s;
+}
+.download-links a.active {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+}
+.download-links a i {
+    color: #b7985b;
+    display: block;
+    float: left;
+    font-size: 35px;
+    line-height: 55px;
+    padding: 0 8px 0 20px;
+    transition: all 0.3s ease 0s;
+}
+.download-links a.active i {
+    color: #fff;
+}
+.download-links a .text {
+    display: block;
+    float: left;
+    padding: 12px 20px 15px 7px;
+}
+.download-links a .text h4 {
+    color: #666666;
+    display: block;
+    float: left;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0;
+    transition: all 0.3s ease 0s;
+}
+.download-links a.active .text h4 {
+    color: #fff;
+}
+.download-links {
+    margin-top: 30px;
+}
+.download-links a:hover {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+}
+.download-links a:hover i,
+.download-links a:hover .text h4 {
+    color: #fff;
+}
+.download-links a.active:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.download-links a.active:hover i {
+    color: #b7985b;
+}
+.download-links a.active:hover .text h4 {
+    color: #666666;
+}
+.app-text {
+    padding-top: 112px;
+    position: relative;
+    z-index: 99;
+}
+.banner__area {
+    position: relative;
+    z-index: 1;
+}
+.banner__area:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: .8;
+    width: 100%;
+    z-index: -1;
+}
+/*---------------------
+  new code
+-------------------------*/
+
+.our-vedio-img img {
+    width: 100%;
+}
+.recent__event__thumb img {
+    width: 100%;
+}
+/*---------------------
+  17. Bradcamb area
+-------------------------*/
+
+.bradcamb-content h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.bradcamb-content ul li {
+    color: #b7985b;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.bradcamb-content ul li a {
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s ease 0s;
+}
+.bradcamb-content ul li a:hover {
+    color: #b7985b;
+}
+.bradcamb-content {
+    position: relative;
+    z-index: 99;
+}
+.breadcamb-area {
+    position: relative;
+}
+.bradcamb-content a span {
+    padding: 0 8px 0 10px;
+    color: #fff;
+
+}
+
+/*---------------------
+  18. Login area
+-------------------------*/
+
+.login-form-container {
+    background: #f5f5f5;
+    padding: 37px 40px;
+    text-align: left;
+}
+.login-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-text h2 {
+    color: #444;
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.login-text span {
+    font-size: 15px;
+}
+.login-form-container input {
+    background: #ffffff;
+    border-radius: 3px;
+    color: #666666;
+    margin-bottom: 20px;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 10px;
+    width: 100%;
+    border: medium none rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+.login-form-container input::-moz-placeholder {
+    color: #666666;
+}
+.login-form-container input::-webkit-input-placeholder {
+    color: #666666;
+    opacity: 1;
+}
+.login-toggle-btn {
+    padding-top: 20px;
+}
+.login-form-container input[type="checkbox"] {
+    height: 15px;
+    margin: 0;
+    position: relative;
+    top: 1px;
+    width: 17px;
+}
+.login-form-container label {
+    color: #606060;
+    font-size: 15px;
+    font-weight: 400;
+}
+.login-toggle-btn > a {
+    color: #b7985b;
+    float: right;
+    transition: all 0.2s ease 0s;
+}
+.login-toggle-btn > a:hover {
+    color: #444;
+}
+.button-box .default-btn {
+    background: transparent;
+    border: 1px solid #b7985b;
+    border-radius: 30px;
+    color: #b7985b;
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 8px 36px;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+}
+.button-box .default-btn:hover {
+    background-color: #b7985b;
+    border: 1px solid #b7985b;
+    color: #fff;
+}
+.mfp-wrap {
+  z-index: 9999999;
+}
+
+
+

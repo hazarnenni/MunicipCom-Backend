@@ -1,0 +1,346 @@
+/*-----------------------------------------------------------------------------------
+
+  Template Name: Republic  Government HTML Template.
+  Template URI: #
+  Description: Republic is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+/* Large screen desktop */
+
+@media (min-width: 1366px) and (max-width: 1500px) {}
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .project__details {
+        padding: 25px 11px 14px;
+    }
+    .project__details h4 {
+        font-size: 15px;
+    }
+    .story {
+        padding-bottom: 71px;
+        padding-right: 0;
+        padding-top: 71px;
+    }
+    .md-mt-30 {
+        margin-top: 30px;
+    }
+    .htc__slider {
+        height: inherit;
+        padding: 450px 0 180px;
+    }
+    .blog-right-sidebar-bottom a {
+        padding: 6px 14px;
+    }
+    .blog-right-sidebar-bottom li {
+        margin-bottom: 15px;
+        margin-right: 8px;
+    }
+    .contact-from {
+        padding: 25px;
+    }
+}
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main__menu > li > a {
+        padding: 0 9px;
+    }
+    .site-info-wrap {
+        width: 719px;
+    }
+    .slider__inner h1 {
+        font-size: 20px;
+    }
+    .text-center .slider__inner p {
+        padding: 0 9%;
+    }
+    .sm-mt-20 {
+        margin-top: 20px;
+    }
+    .sm-mt-30 {
+        margin-top: 30px;
+    }
+    .service {
+        margin-top: 30px;
+    }
+    .section__title p.title-desc {
+        padding: 0 19%;
+    }
+    .sectionservice__title p.title-desc {
+        padding: 0 19%;
+    }
+    .about {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    .about__btn a.play-video {
+        font-size: 15px;
+    }
+    .project__details {
+        padding: 25px 11px 14px 12px;
+    }
+    .our__story {
+        background: #f1f1f1;
+    }
+    .news__letter__title h2 {
+        font-size: 28px;
+    }
+    .news__letter__btn input[type="text"],
+    .news__letter__btn input[type="email"],
+    .news__letter__btn input[type="password"] {
+        width: 380px;
+    }
+    .htc__slider {
+        height: inherit;
+        padding: 500px 0 150px;
+    }
+    blockquote {
+        padding: 14px 25px;
+    }
+    .blog-top-mrg {
+        margin-left: 0;
+    }
+    .blog-right-sidebar-bottom a {
+        padding: 9px 8px;
+    }
+    .blog-right-sidebar-bottom li {
+        margin-bottom: 15px;
+        margin-right: 10px;
+    }
+    .communication {
+        margin-top: 50px;
+    }
+    .res-service2 {
+        margin-top: 0;
+    }
+    .download-links a {
+        margin-right: 10px;
+    }
+    .app-text {
+        padding-top: 20px;
+    }
+}
+/* small mobile :320px. */
+
+@media (max-width: 767px) {
+    .container {
+        width: 300px
+    }
+    .htc__address {
+        justify-content: center;
+    }
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header__top {
+        height: 160px;
+    }
+    .slider__inner h1 {
+        font-size: 29px;
+    }
+    .text-center .slider__inner p {
+        padding: 0;
+    }
+    .xs-mt-20 {
+        margin-top: 20px;
+    }
+    .xs-mt-30 {
+        margin-top: 30px;
+    }
+    .service {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    .section__title p.title-desc {
+        padding: 0 6%;
+    }
+    .sectionservice__title p.title-desc {
+        padding: 0 6%;
+    }
+    .htc__slider {
+        padding-top: 0;
+    }
+    .about__btn a.play-video {
+        margin-left: 20px;
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .about {
+        padding-bottom: 30px;
+        padding-top: 100px;
+    }
+
+    .project {
+        margin-top: 30px;
+    }
+    .project__details h4 {
+        line-height: 25px;
+    }
+    .our__story {
+        background: #f1f1f1;
+    }
+    .xs-ptb-100 {
+        padding: 100px 0;
+    }
+    .story {
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .story h2 {
+        font-size: 35px;
+    }
+
+    .counterup__inner p {
+        padding-right: 0;
+    }
+    .funfact-area {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .single-fact {
+        margin-top: 30px;
+    }
+    .time__like__list {
+        flex-wrap: wrap;
+    }
+    .time__like__list li + li {
+        margin-left: 0;
+    }
+    .recent__event {
+        flex-wrap: wrap;
+    }
+    .event__time {
+        border-right: 1px solid transparent;
+        padding: 10px 0 0;
+        width: 100%;
+    }
+    .event__information h4 {
+        line-height: 26px;
+    }
+    .blog {
+        margin-top: 30px;
+    }
+    .blog__details h2 {
+        font-size: 16px;
+    }
+    .news__letter {
+        flex-wrap: wrap;
+        height: 182px;
+    }
+    .news__letter__title {
+        margin-right: 0;
+    }
+    .news__letter__btn input[type="text"],
+    .news__letter__btn input[type="email"],
+    .news__letter__btn input[type="password"] {
+        width: 256px;
+    }
+    .send__btn a i {
+        font-size: 21px;
+        width: 49px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .xs-mt-0 {
+        margin-top: 0px;
+    }
+    .htc__slider {
+        height: inherit;
+        padding: 300px 0 15px;
+    }
+    .pt-180 {
+        padding-top: 120px;
+    }
+    .mt-90 {
+        margin-top: 30px;
+    }
+    .mtb-90 {
+        margin: 30px 0;
+    }
+    blockquote {
+        padding: 14px 20px;
+    }
+    .blog-top > img {
+        display: inline-block;
+        float: inherit;
+    }
+    .blog-img-details {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+    .blog-reply-all,
+    .blog-reply-all2 {
+        padding: 30px 18px;
+    }
+    .blog-top-mrg {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .blog-right-sidebar {
+        margin-top: 50px;
+    }
+    .mb-60 {
+        margin-bottom: 40px;
+    }
+    .ptb-100 {
+        padding: 50px 0;
+    }
+    .blog-res {
+        margin-top: 0;
+    }
+    .contact-from {
+        padding: 15px;
+    }
+    .contact-from input {
+        padding: 10px 20px;
+    }
+    .communication-icon i {
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+    }
+    .communication-text {
+        padding-left: 50px;
+        padding-top: 0px;
+    }
+    .communication {
+        margin-top: 35px;
+    }
+    .login-form-container {
+        padding: 30px 10px;
+    }
+    .ptb-120 {
+        padding: 50px 0;
+    }
+    .bradcamb-content h1 {
+        font-size: 30px;
+    }
+    .res-service {
+        margin-top: 0;
+    }
+    .pt-90 {
+        padding-top: 50px;
+    }
+    .download-links a {
+        margin-bottom: 20px;
+    }
+}
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+    .time__like__list li + li {
+        margin-left: 25px;
+    }
+}
